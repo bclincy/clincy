@@ -28,20 +28,41 @@
   text-align: center;
   background: $main-color;
   color: set_text-color($main-color);
+  
+  a {
+    color: lighten($main-color, 25%);
+  }
+  div.col-md-4 {
+    min-height: 200px;
+  }
+  .btn{
+    color: set_text-color($main-color);
+    background: darken($main-color, 15%);
+  }
+  a:hover.btn{
+    background: darken($main-color, 25%);
+  }
 
   .fa {
     font-size: $icon-size;
+  }
+  p {
+    text-align: left;
   }
 
 }
 
 .section-b {
    img {
-
+     padding:10px;
+     float: left;
    }
    background: #e6ebf1;
-   margin: 0;
+   margin: 0px;
    padding: 30px 0;
+  .fa {
+    font-size: $icon-size;
+  }
  }
 
 .fill {
