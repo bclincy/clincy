@@ -8156,8 +8156,7 @@ button.close {
   .section-a a {
     color: #50d4e1; }
   .section-a div.col-md-4 {
-    min-height: 200px;
-    border: 1px #041314 solid; }
+    min-height: 200px; }
   .section-a .btn {
     color: #fff;
     background: #0f4f56; }
