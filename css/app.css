@@ -8164,6 +8164,9 @@ button.close {
     background: #07272a; }
   .section-a .fa {
     font-size: 4em; }
+  .section-a .fa-inline {
+    font-size: 10px;
+    padding-right: 5px; }
   .section-a p {
     text-align: left; }
 
